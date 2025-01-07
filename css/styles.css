@@ -1,0 +1,87 @@
+/* Base styles */
+:root {
+    --primary-color: #232f3e;
+    --secondary-color: #ff9900;
+    --text-color: #16191f;
+    --background-color: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Floating Action Button */
+  .aws-ai-fab {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 5px var(--shadow-color);
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .aws-ai-fab:hover {
+    transform: scale(1.1);
+  }
+  
+  /* AI Panel */
+  .aws-ai-panel {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    width: 380px;
+    max-height: 600px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--shadow-color);
+    z-index: 9999;
+    display: none;
+  }
+  
+  .aws-ai-panel.active {
+    display: block;
+  }
+  
+  .aws-ai-panel-header {
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .aws-ai-panel-content {
+    padding: 16px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  /* History Items */
+  .aws-ai-history-item {
+    padding: 12px;
+    border-bottom: 1px solid var(--shadow-color);
+    cursor: pointer;
+  }
+  
+  .aws-ai-history-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Tooltips */
+  .aws-ai-tooltip {
+    position: absolute;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    z-index: 10001;
+    pointer-events: none;
+  }

@@ -1,0 +1,26 @@
+{
+    "extensionName": {
+      "message": "AWS Console AI Assistant",
+      "description": "The name of the extension"
+    },
+    "extensionDescription": {
+      "message": "AI-powered assistant for AWS Console providing insights and suggestions",
+      "description": "The description of the extension"
+    },
+    "settingsTitle": {
+      "message": "Settings",
+      "description": "Title for the settings page"
+    },
+    "apiKeyLabel": {
+      "message": "API Key",
+      "description": "Label for API key input"
+    },
+    "saveButton": {
+      "message": "Save Settings",
+      "description": "Text for save settings button"
+    },
+    "clearHistoryButton": {
+      "message": "Clear History",
+      "description": "Text for clear history button"
+    }
+  }
