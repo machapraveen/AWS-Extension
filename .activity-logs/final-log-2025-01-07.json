@@ -1,17 +1,14 @@
 {
   "date": "2025-01-07",
-  "summary": "- README.md: 4 changes\n- popup.html: 1 changes",
+  "summary": "",
   "statistics": {
-    "totalFiles": 2,
-    "totalChanges": 5,
-    "mostEditedFile": "README.md",
-    "workDuration": "0h 7m",
-    "fileTypes": {
-      "html": 1,
-      "md": 4
-    },
-    "peakActivityHour": "10:00-11:00",
-    "totalLinesChanged": 950
+    "totalFiles": 0,
+    "totalChanges": 0,
+    "mostEditedFile": "None",
+    "workDuration": "0h 0m",
+    "fileTypes": {},
+    "peakActivityHour": "0:00-1:00",
+    "totalLinesChanged": 0
   },
   "projectDetails": {
     "branch": "unknown",
